@@ -1,11 +1,11 @@
-# .github/workflows/ci.yml
+
 
 name: Build and Push Flask Docker Image
 
 on:
   push:
     branches:
-      - main  # or any branch name you're working with
+      - main  
 
 jobs:
   build-and-push:
